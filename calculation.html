@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/styles1.css" type="text/css">
+<script src="js/calculate.js"></script>
+</head>
+<body style="font-family:Verdana;color:#B233FF;">
+
+<div style="background-color:#33A8FF;padding:15px;text-align:center;">
+  <h1>Diabetes Management <img src="images/logo.png" style="opacity:0.4;width:50px"></h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="index.html">Home</a>
+  </div>
+
+  <div class="main">
+    <div class="container">
+    <h1>BMI Calculator</h1>
+    <div class="input-container">
+      <label for="height">Height:</label>
+      <input type="number" id="height" placeholder="Height (cm)">
+    </div>
+    <div class="input-container">
+      <label for="weight">Weight:</label>
+      <input type="number" id="weight" placeholder="Weight (kg)">
+    </div>
+    <button onclick="calculateBMI()">Calculate</button>
+    <div id="result"></div>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:650px;">© copyright www.diabetesmanagement.com</div>
+
+</body>
+</html>
+
